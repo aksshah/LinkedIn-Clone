@@ -8,9 +8,9 @@
 
 ## Usage:
 - **Sign-up** 
-  --Enter your email, full name and password. 
-- Log-in: 
-  --Enter your email and password.
+  - Enter your email, full name and password. 
+- **Log-in**: 
+  - Enter your email and password.
 
 
 ## Demo
