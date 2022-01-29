@@ -26,6 +26,7 @@
     flex: 1;
     margin-left: 10px;
     outline-width: 0;
+    outline: none;
 }
 .feed__input > form > button{
     display: none;

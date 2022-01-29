@@ -58,9 +58,9 @@ function Feed() {
              <div className='feed__inputContainer'>
                 <div className='feed__input'>
                     <CreateIcon />
-                    <form>
+                    <form onSubmit={sendPost}>
                         <input type="text" value={input} onChange={(e) => setInput(e.target.value)}/>
-                        <button onClick={sendPost} type="submit">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
                 <div className="feed_inputOptions">
