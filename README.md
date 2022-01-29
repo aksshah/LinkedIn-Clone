@@ -1,4 +1,8 @@
-A functional LinkedIn clone made using **React.js, Redux, Firebase Authentication and Firebase storage**. 
+A functional LinkedIn clone made using 
+- **React.js**
+- **Redux**
+- **Firebase Authentication**
+- **Firebase Firestore**
 
 Usage:
 Sign-up: Enter your email, full name and password. 
