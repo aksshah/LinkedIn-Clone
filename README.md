@@ -14,6 +14,6 @@
 
 
 ## Demo
-Check it out here: [LinkedIn Clone](https://clone-linked-in.netlify.app/).
+Check it out here: [LinkedIn Clone - Live](https://clone-linked-in.netlify.app/).
 
 Don't forget to leave a post! :wink:
