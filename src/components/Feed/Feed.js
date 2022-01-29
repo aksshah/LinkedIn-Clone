@@ -24,6 +24,11 @@ function Feed() {
     const [posts,setPosts] = useState([]);
     const [input,setInput] = useState('');
     
+
+    useEffect(() => {
+        document.body.style.backgroundColor = "#f3f2ef";
+    },[]);
+
     useEffect(()=>{
         db.collection('posts')
         .orderBy('timestamp','desc')

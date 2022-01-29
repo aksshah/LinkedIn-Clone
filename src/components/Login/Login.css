@@ -1,18 +1,54 @@
-.login{
-    display: grid;
-    place-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.login-wrapper{
+    max-width: 1100px;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
 }
 
-.login > img{
+.login-wrapper *{
+    color: gray;
+}
+
+.login-wrapper .illustration-container{
+    position: fixed;
+    z-index: -1;
+    bottom: -40px;
+    right: 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper .illustration-container img{
+    object-fit: cover;
+}
+h1.welcome-headline{
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 40px;
+    color: rgba(143, 88, 73, 1);
+}
+
+.login-wrapper > img{
+    margin-top: 30px;
     object-fit:contain;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: absolute;
 }
+
+.login{
+    display: grid;
+    place-items: left;
+    margin-top:20vh;
+    max-width: 400px;
+    width: 100%;
+}
+
 
 .login form{
     display: flex;
@@ -21,31 +57,64 @@
 }
 
 .login form input{
-    width: 250px;
-    height: 50px;
     font-size: 15px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    border: none;
+    padding: 13px 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    background: white;
+    max-width: 100%;
+    color: black;
 }
 
-.login form button{
-    width: 250px;
+.login form button,
+.login .login__register{
+    width: 100%;
     height: 50px;
     font-size: medium;
     color: white;
-    background-color: #0074b1;
+    background-color: #2977c9;
+    border-radius: 30px;
     border: none;
-    width: 100%;
     margin-bottom: 10px;
 }
 
-.login p{
-    font-size: 13px;
-}
 .login__register{
-    margin-left: 5px;
-    cursor: pointer;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.login p{
+    position: relative;
+    text-align: center;
+}
+.login p hr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.login p span::before,
+.login p span::after{
+    content: '';
+    width: 45%;
+    position: absolute;
+    height: 1px;
+    border-top: 1px solid gray;
+    top: 50%;
+    left: 0;
+}
+.login p span::before{
+    border-top: 1px solid gray;
+    top: 50%;
+    right: 0;
+    left: auto;
+}
+.login p.credit{
     font-size: 12px;
-    border-bottom: 1px solid;
+    margin-top: 30px;
 }
