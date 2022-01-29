@@ -1,0 +1,34 @@
+.post{
+    background-color: white;
+    padding: 15px 15px 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.post__header{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.post__body{
+    overflow-wrap: anywhere;
+}
+.post__info{
+    margin-left: 10px;
+}
+.post__info > p{
+    font-size: 11.25px;
+    color: rgba(0,0,0,0.6);
+}
+.post__body .post__info > p{
+    color: inherit;
+    font-size: 13.25px;
+    margin: 15px 0px 5px 5px;
+}
+.post__info > h2{
+    font-size: 15px;
+}
+.post__buttons{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+    margin-right: 20px;
+}
+.headerOption:hover{
+    color: black;
+}
+h3.headerOption__title{
+    font-size: 12px;
+    font-weight: normal
+}
+.headerOption__icon{
+    object-fit: contain;
+    width: 20px!important;
+    height: 20px!important;
+}
+.headerOption:last-of-type{
+    margin-right: 0;
+}
