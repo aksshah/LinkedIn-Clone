@@ -68,7 +68,7 @@ function Login() {
                     <a className="login__register" href="/" onClick={register}>
                         Register Now
                     </a>
-                    <p className="credit">Made by <a href="https://www.linkedin.com/in/akshilshah" rel="noreferrer" target="_blank" title="Akshil Shah - LinkedIn">Akshil Shah</a></p>
+                    <p className="credit">Made by <a href="https://www.akshilshah.com" rel="noreferrer" target="_blank" title="Akshil Shah - LinkedIn">Akshil Shah</a></p>
             </div>
         </div>
     )
